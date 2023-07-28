@@ -10,6 +10,6 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("/features")
-@CucumberOptions(tags = "@launch2")
+@CucumberOptions(tags = "@launch2",dryRun=true)
 //@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@launch")
 public class CucumberTestSuite {}
