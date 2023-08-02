@@ -1,8 +1,7 @@
-package screenplay.customer.chat_window;
+package screenplay.customer.step_definitions;
 
 import io.cucumber.java.en.Then;
 import net.serenitybdd.screenplay.Actor;
-import screenplay.generic.file_reader.Environment_File_Reader_Step_Definitions;
 import screenplay.customer.chat_window.tasks.Send;
 
 public class Chat_Window_Step_Definitions extends Environment_File_Reader_Step_Definitions {

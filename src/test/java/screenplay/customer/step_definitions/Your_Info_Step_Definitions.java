@@ -1,12 +1,11 @@
-package screenplay.customer.chat_window_your_info;
+package screenplay.customer.step_definitions;
 
 import io.cucumber.java.en.Then;
 import model.Context;
 import model.CustomerContactInfo;
 import net.serenitybdd.screenplay.Actor;
-import screenplay.generic.file_reader.Environment_File_Reader_Step_Definitions;
 import screenplay.customer.chat_window_your_info.tasks.Submit;
-import screenplay.generic.data_faker.tasks.Fake_Customer;
+import screenplay.data_faker.tasks.Fake_Customer;
 
 public class Your_Info_Step_Definitions extends Environment_File_Reader_Step_Definitions {
 

@@ -1,4 +1,4 @@
-package screenplay.generic.data_faker.tasks;
+package screenplay.data_faker.tasks;
 
 import com.github.javafaker.Faker;
 import model.CustomerContactInfo;

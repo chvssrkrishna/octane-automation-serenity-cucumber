@@ -1,8 +1,7 @@
-package screenplay.customer.home;
+package screenplay.customer.step_definitions;
 
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
-import screenplay.generic.file_reader.Environment_File_Reader_Step_Definitions;
 import screenplay.customer.home.tasks.Open;
 
 public class Home_Page_Step_Definitions extends Environment_File_Reader_Step_Definitions {

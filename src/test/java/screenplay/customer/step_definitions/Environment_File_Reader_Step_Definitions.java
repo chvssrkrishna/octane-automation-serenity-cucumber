@@ -1,4 +1,4 @@
-package screenplay.generic.file_reader;
+package screenplay.customer.step_definitions;
 
 import helpers.filereader.FileReaderManager;
 import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
